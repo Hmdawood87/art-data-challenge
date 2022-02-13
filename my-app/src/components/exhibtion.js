@@ -52,7 +52,7 @@ const Exhibtion = () => {
             >
                 <CircularProgress color="inherit" />
             </Backdrop>
-            {data==null? '':
+            {data==null? <h1>404 Not Found given Id Record</h1>:
                 <>
                     <a href="/"
                     >Back</a>
